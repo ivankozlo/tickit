@@ -2,7 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 
 const App = () => {
-  return <div>I am the React component!</div>
+  return <div>I am the React component, Hola</div>
 }
 
 const container = document.getElementById('app')
