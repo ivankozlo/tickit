@@ -2,19 +2,21 @@ html, body{
   margin: 0;
   padding: 0;
 }
-.App {
-  margin: 0;
-  padding: 0;
-}
 
 .App-header {
   background-color: #222;
   height: 50px;
+  width: 100%;
   padding: 10px;
   color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 .App-intro {
+  padding-top: 70px;
   font-size: small;
   margin: 0;
+  z-index: 1;
 }

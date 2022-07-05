@@ -93,6 +93,10 @@ class App extends Component {
             eventBusHandle={this.setEventBus}
             handleDragStart={handleDragStart}
             handleDragEnd={handleDragEnd}
+            style={{
+              height: "calc(100vh - 80px)",
+              overflowY: "auto"
+            }}
           />
         </div>
       </div>
