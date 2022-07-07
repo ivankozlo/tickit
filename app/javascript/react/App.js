@@ -86,6 +86,7 @@ class App extends Component {
         <div className="App-intro">
           <Board
             editable
+            canAddLanes
             onCardAdd={this.handleCardAdd}
             data={this.state.boardData}
             draggable

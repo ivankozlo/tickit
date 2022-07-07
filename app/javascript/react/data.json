@@ -11,7 +11,11 @@
           "title": "Buy milk",
           "label": "15 mins",
           "cardStyle": { "width": 270, "maxWidth": 270, "margin": "auto", "marginBottom": 5 },
-          "description": "2 Gallons of milk at the Deli store"
+          "description": "2 Gallons of milk at the Deli store",
+          "dueOn": "due in a day",
+          "subTitle": "SMS received at 12:13pm today",
+          "name": "John Smith"
+
         },
         {
           "id": "Plan2",
