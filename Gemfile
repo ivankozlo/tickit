@@ -22,6 +22,8 @@ gem "jsbundling-rails"
 gem "turbo-rails"
 
 gem "rspec-rails"
+
+gem "factory_bot_rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 

@@ -5,4 +5,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  
+  namespace :api do
+    resources :lanes, only: %i[index create destroy]
+    # post 'lanes', to: 'lanes#index'
+  end
 end
