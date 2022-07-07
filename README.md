@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The trello like app. Using esbundle to compile React components. 
 
-Things you may want to cover:
+```
+Rails version: 7.0.3
+React version: 18.2.0
 
-* Ruby version
+The project is fully tested with Rspec and Factory bot. 
 
-* System dependencies
+```
 
-* Configuration
+How to run the project
+```
+git clone git@github.com:ivankozlo/tickit
+bundle install
+npm install
 
-* Database creation
+bin/dev
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

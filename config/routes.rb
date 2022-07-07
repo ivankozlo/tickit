@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   
   namespace :api do
     resources :lanes, only: %i[index create destroy]
+    resources :tickets, only: %i[index create update destroy]
     # post 'lanes', to: 'lanes#index'
   end
 end
