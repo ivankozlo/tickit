@@ -12,7 +12,10 @@ The project is fully tested with Rspec and Factory bot.
 
 How to run the project
 ```
-git clone git@github.com:ivankozlo/tickit
+git clone git@github.com:ivankozlo/tickit.git
+
+cd tickit
+
 bundle install
 npm install
 

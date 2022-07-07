@@ -22,6 +22,7 @@ class Api::LanesController < ApplicationController
       render json: @lane.errors, status: 404
     end
   end
+  
   private 
   def set_lane
     if Lane.exists? params[:id]
