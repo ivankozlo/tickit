@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_07_153323) do
+ActiveRecord::Schema[7.0].define(version: 2022_07_08_002749) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -25,9 +25,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_07_153323) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "lane_id"
     t.date "due_on"
+    t.bigint "lane_id"
     t.index ["lane_id"], name: "index_tickets_on_lane_id"
   end
 
+  add_foreign_key "tickets", "lanes"
 end
